@@ -24,7 +24,6 @@ for (let i = 0; i < 4; i++) {
     console.log("loop...");
 }
 
-
 // ==========================================
 // Opdracht 3. Maak een for-loop die van 0 tot 15 loopt. Voor ieder getal wordt in de console gelogd of het getal even of oneven is.
 // Verwachte uitkomsten:
