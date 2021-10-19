@@ -51,6 +51,16 @@ for (let i = 0; i < 16; i++) {
     }
 }
 
+// Uitwerking
+
+//for (let i = 0; i < 16; i++) {
+//    if (i % 2 === 0) {
+//        console.log(i + " is even");
+//    }
+//    if (i % 2 !== 0 {
+//        console.log(i + " is oneven");
+//    }
+//}
 
 // ==========================================
 // [BONUSOPDRACHT] - optioneel: maak een for-loop die van 0 tot 9 loopt en de getallen 0 tot 9 logt.
@@ -77,3 +87,25 @@ for (let i = 0; i < 10; i++) {
         console.log(">> " + i);
     }
 }
+
+// Uitwerking had deze opties, maar zijn allemaal goed
+
+// for (let i = 0; i < 10; i++) {
+//     if (i < 3) {
+//         console.log(i);
+//     } if (i >= 3 && i < 6) {
+//         console.log("> " + i);
+//     } if (i >= 6) {
+//         console.log(">> " + i);
+//     }
+// }
+
+// for (let i = 0; i < 10; i++) {
+//     if (i >= 3 && i < 6) {
+//         console.log("> " + i);
+//     } else if (i >= 6) {
+//         console.log(">> " + i);
+//     } else {
+//         console.log(i);
+//     }
+// }
