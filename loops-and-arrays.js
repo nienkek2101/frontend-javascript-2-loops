@@ -5,13 +5,18 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
-console.log(names)
+// names = names + "je";
+console.log(names);
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(names) geeft: ["Henk", "Piet", "Fred", "Joop"]
 // Na jouw script zie je de aangepaste waardes:
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 
+for (let i = 0; i < names.length; i++) {
+    names[i] = names[i] + 'je';
+}
+console.log(names);
 
 // ==========================================
 // Opdracht 2
@@ -20,6 +25,15 @@ console.log(names)
 // ==========================================
 
 const numbers = [2, 4, 5, 29, 38];
+
+console.log(numbers);
+
+for (let i = 0; i < numbers.length; i ++) {
+    numbers[i] = numbers[i] * 3;
+}
+
+console.log(numbers);
+
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -36,6 +50,16 @@ const numbers = [2, 4, 5, 29, 38];
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
+
+console.log(squares);
+
+for (let i = 0; i < squares.length; i ++) {
+//    squares[i] = squares[i] * squares[i] * squares[i];
+    squares[i] = squares[i] ** 3;
+}
+
+console.log(squares);
+
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
